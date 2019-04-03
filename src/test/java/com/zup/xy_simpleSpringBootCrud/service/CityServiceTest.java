@@ -142,7 +142,6 @@ public class CityServiceTest {
 
     }
 
-    @Test(expected = FieldException.class)
     public void testUpdateCityIdNotFound()
     {
         City city = new City(1,"Uberlândia");
